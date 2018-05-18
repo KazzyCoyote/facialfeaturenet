@@ -16,7 +16,7 @@ layer {
         #scale: -1
     }
     data_param {
-    source: 'C:/Users/apple/liness'
+    source: "/facialfeaturenet/lmdb_imageset"
     batch_size: 20
     backend: LMDB
     }
@@ -248,5 +248,3 @@ layer {
   bottom: "label"
   top: "loss"
 }
-
-
